@@ -82,19 +82,6 @@ a {
     flex-basis: 350px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 72px;
-    background-color: #1f2937;
-}
-
-.footer .text {
-    color: #e5e7eb;
-    
-}
-
 /* --------Random Info Section---------- */
 
 .random_info {
@@ -159,4 +146,55 @@ a {
     align-self: center;
     text-align: right;
     font-weight: bold;
+}
+
+/* --------Signup Section------- */
+
+.signup_section {
+    background-color: #3882f6;
+    width: 900px;
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.signup_section .text .heading {
+    font-size: 24px;
+}
+
+.signup_section .text .subtext {
+    font-size: 18px;
+}
+
+.signup_section button {
+    font-size: 18px;
+    border: 2px solid #f9faf9;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #f9faf9;
+}
+
+/* ------footer section---------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #1f2937;
+}
+
+.footer .text {
+    color: #e5e7eb;
+    
 }
