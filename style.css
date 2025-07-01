@@ -78,3 +78,16 @@ a {
     height: 200px;
     flex-basis: 350px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #1f2937;
+}
+
+.footer .text {
+    color: #e5e7eb;
+    
+}
